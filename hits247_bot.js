@@ -15,9 +15,9 @@ const client = new Client({
   ],
 });
 
-const streamUrl = 'https://transmitter.ttech.fun/hls/rmf_fm/live.m3u8';
+const streamUrl = 'https://transmitter.ttech.fun/hls/hits247/live.m3u8';
 const apiUrl = 'https://api.ttech.fun/v3/hits247nowplaying';
-// I changed the URLS for u
+//  the api and stream URLS
 const statusTexts = [
   { name: 'title', duration: 2000 },
   { name: 'artist', duration: 2000 },
