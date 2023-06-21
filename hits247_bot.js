@@ -31,11 +31,11 @@ client.on('ready', () => {
   client.application.commands.set([
     {
       name: 'playnow',
-      description: 'Plays the RMF FM  radio stream.',
+      description: 'Plays the Hits247  radio stream.',
     },
     {
       name: 'nowplaying',
-      description: 'Shows the currently playing song on RMF FM.',
+      description: 'Shows the currently playing song on Hits247.',
     },
     {
       name: 'status',
